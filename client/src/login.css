@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  background-color: pink;
+  background-image: url("https://inspirationfeed.com/wp-content/uploads/2016/08/mobile_wallpaper_by_maria_shanina-min.png");
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.h1 {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBar {
+  width: 100%;
+  /* text-align: center; */
+  background-color: black;
+
+  padding-top: 1%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 8%;
+}
+
+.box1 {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  align-self: center;
+  padding-top: 20%;
+  width: 20%;
+}
+
+.btn {
+  background-color: #108a16;
+  color: #bedb1a;
+  font-weight: bold;
+  padding: 14px 25px;
+  /* text-align: center; */
+  text-decoration: none;
+  display: inline-block;
+  justify-self: center;
+  justify-content: center;
+  justify-self: center;
+  border-radius: 6px;
+}
+
+a:hover,
+a:active,
+a:link,
+a:active {
+  text-decoration: none;
+  background-color: none;
+}
+
+.dropbtn {
+  color: white;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.dropdown-content {
+  display: none;
+  font-family: Arial, Helvetica, sans-serif;
+  /* position: relative; */
+  background-color: #db1e9c;
+  font-size: 21px;
+  color: #77df16;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 20px;
+  padding: 1%;
+  width: 12%;
+  position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 7%;
+  margin-left: -3%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: ; */
+  color: rgb(194, 110, 176);
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+}
