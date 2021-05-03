@@ -52,6 +52,6 @@ app.post("/login", (req, res) => {
     });
 });
 
-app.listen(3001);
+app.listen("https://findsong.vercel.app");
 
 console.log("Listening on 3001");
