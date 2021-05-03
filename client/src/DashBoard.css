@@ -1,3 +1,7 @@
+.body {
+  background-color: red;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -6,22 +10,63 @@
   align-items: center;
 }
 
-.searchBar {
-  width: 80%;
-  height: 100%;
-  margin-top: 14%;
-  position: relative;
+.container1 {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.searcharea {
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 20%;
+  /* margin-right: 10%; */
+  margin-left: 15%;
+
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.enter {
+  position: relative;
+  align-self: flex-end;
+  background-color: rgb(0, 0, 0);
+  color: #14e414;
+  display: flex;
+  width: 300%;
+  margin-left: 100%;
+  padding: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-image: url("https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"); */
+}
+
+.name {
+  color: rgb(213, 226, 25);
+}
+.art {
+  color: #d6d865;
+}
+.searchBar {
+  width: 280%;
+  height: 10%;
+  margin-top: 10%;
+  position: relative;
+
   justify-content: center;
   align-items: center;
+  align-self: center;
+  margin-right: 200%;
 }
 input {
   width: 100%;
 }
 
 .search {
-  width: 80%;
-  height: 100%;
+  width: 100%;
+
   border: 3px solid #00b4cc;
   border-right: none;
   padding: 5px;
@@ -29,33 +74,121 @@ input {
   outline: none;
   color: #9dbfaf;
   background-color: pink;
+  margin-right: 100%;
+  margin-top: 5%;
 }
 .searchBar input[type="text"] {
   margin-top: 10%;
   width: 100%;
-  float: right;
   padding: 6px;
   border: none;
-  margin-top: 8px;
-  margin-right: 16px;
+  /* margin-top: 8px; */
   font-size: 100px;
 }
 
+.welc {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 3%;
+  height: 10%;
+  width: 60%;
+  background-color: rgb(201, 224, 69);
+
+  /* color: rgb(241, 23, 23); */
+  border-radius: 10px;
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzwUe96lbLlSf7ivcYJTCE40wzo2IqMfHBsQ&usqp=CAU"); */
+}
+
+h3 {
+  align-self: center;
+  color: rgb(221, 33, 80);
+  margin-left: 10%;
+}
 .results {
   position: relative;
   width: 100%;
-  margin-top: 20px;
-  /* justify-content: center; */
+  /* margin-top: 20px; */
+  justify-content: left;
+  margin-top: 1%;
+  /* margin-left: 100%; */
   /* margin-right: 30%; */
   /* background-color: plum; */
 }
 
-.Player {
-  position: relative;
+ul {
+  list-style: inside;
+  color: #2ec8dd;
+}
+
+.recentres {
   display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  flex: 3;
+}
+
+.btn1 {
+  background-color: rgb(189, 53, 223);
+  color: #dac932;
+  font-weight: bold;
+  margin-left: 6%;
+}
+#recent {
+  align-self: flex-start;
+  /* margin-left: 3%; */
+  margin-top: 5%;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(224, 221, 35);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png");
+}
+
+.rec {
+  color: #eb79d8;
+  margin-left: 10%;
+}
+
+#mess {
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
+  align-self: center;
+  margin: 10%;
+  margin-top: 40%;
+  color: rgb(23, 82, 243);
+}
+
+h5 {
+  color: rgb(199, 101, 101);
+  margin-left: 10%;
+}
+
+button {
+  position: relative;
+  align-self: flex-start;
+  size: 300px;
+  /* margin-left: 5%; */
+  margin-top: 5%;
+  background-color: #eb1dc8; /* Green */
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.Player {
+  position: absolute;
+
+  /* bottom: 0; */
+
+  margin-top: 60%;
+
   /* background-color: red; */
   width: 60%;
 }

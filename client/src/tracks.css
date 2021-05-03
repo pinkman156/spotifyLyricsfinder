@@ -1,10 +1,14 @@
 .container2 {
   display: flex;
   flex-direction: column;
-
+  position: relative;
   align-items: center;
   margin: 2;
   /* background-color: white; */
+}
+
+.trackname {
+  color: rgb(183, 231, 52);
 }
 
 img {
@@ -13,7 +17,7 @@ img {
   /* margin-left: 10%; */
 }
 .tracks {
-  background-image: url("https://i.pinimg.com/originals/e5/1d/e8/e51de88a412a897659e3b34b87da1502.jpg");
+  background-image: url("https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -33,7 +37,8 @@ h3 {
 }
 
 h4 {
-  color: rgb(246, 84, 9);
-  background-color: rgb(202, 165, 165);
-  /* font-weight: lighter; */
+  color: rgb(233, 17, 17);
+  background-color: greenyellow;
+  padding: 2px;
+  font-weight: bold;
 }
