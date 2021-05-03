@@ -9,7 +9,7 @@ export default function useAuth(code) {
   useEffect(() => {
     axios
       // .post("http://localhost:3001/login", {
-      .post("https://findsong.vercel.app/login", {
+      .post("https://findsong.vercel.app", {
         code,
       })
       .then((res) => {
@@ -28,7 +28,7 @@ export default function useAuth(code) {
     const interval = setInterval(() => {
       axios
         // .post("http://localhost:3001/refresh", {
-        .post("https://findsong.vercel.app/refresh", {
+        .post("https://findsong.vercel.app", {
           refreshToken,
         })
         .then((res) => {
