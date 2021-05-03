@@ -33,7 +33,7 @@ app.post("/refresh", (req, res) => {
 app.post("/login", (req, res) => {
   const code = req.body.code;
   const spotifyApi = new SpotifyWebApi({
-    redirectUri: "http://localhost:3000",
+    redirectUri: "https://findsong.vercel.app/",
     clientId: "9ae9b11adb9c489b8488cd064b6212d7",
     clientSecret: "264a0889d86046c586ec450ba9896979",
   });
